@@ -5,6 +5,7 @@ The Student Performance Predictor is a Machine Learning-based system developed u
 The project aims to assist educators in identifying students who may require additional academic support by analyzing historical academic data and generating performance predictions.
 
 #Features
+
 Predicts student marks using Machine Learning
 Data preprocessing and feature selection
 Model training and evaluation
@@ -12,6 +13,7 @@ Performance metrics calculation (R² Score, MAE, RMSE)
 Visualization of actual vs predicted scores
 
 #Technologies Used
+
 Python 
 pandas
 numpy
@@ -19,6 +21,7 @@ scikit-learn
 matplotlib
 
 #Usage
+
 Run the Python script:
 python student_predictor.py
 The program will:
@@ -28,6 +31,7 @@ Evaluate performance
 Display prediction results and graph
 
 #Machine Learning Model
+
 The project uses Linear Regression since the output variable (student marks) is continuous in nature.
 Model Evaluation Metrics:
 R² Score
@@ -35,17 +39,20 @@ Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 
 #Sample Output
+
 The system generates:
 Predicted student scores
 Comparison graph of actual vs predicted values
 
 #Future Improvements
+
 Implement advanced models like Random Forest or XGBoost
 Convert into a web application using Flask
 Integrate real-time database support
 Deploy on cloud platforms
 
 #Author
+
 S B THEJASWINI
 B.Tech CSE (AI & ML)
 The Apollo University
